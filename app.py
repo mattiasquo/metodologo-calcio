@@ -10,10 +10,9 @@ st.write(
     " ottenere l'analisi."
 )
 
-# Inserimento della API Key Groq
-api_key = st.text_input(
-    "Inserisci la tua API Key Groq (inizia con gsk_...):", type="password"
-)
+# API Key Groq hardcoded
+api_key = "gsk_LA_TUA_CHIAVE_GROQ_COMPLETA_QUI"
+
 
 if api_key:
   client = Groq(api_key=api_key)
