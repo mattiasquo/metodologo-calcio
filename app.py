@@ -11,7 +11,8 @@ st.write(
 )
 
 # API Key Groq hardcoded
-api_key = "gsk_LA_TUA_CHIAVE_GROQ_COMPLETA_QUI"
+api_key = st.secrets["GROQ_API_KEY"]
+
 
 
 if api_key:
