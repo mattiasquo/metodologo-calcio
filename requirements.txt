@@ -1,4 +1,4 @@
 streamlit
-groq
+google-genai
 pillow
 starlette<0.40.0
