@@ -1,4 +1,2 @@
 streamlit
-groq
-pillow
-starlette<0.40.0
+openai
