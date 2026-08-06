@@ -89,10 +89,10 @@ if submit_button:
             """
 
             with st.spinner("Analisi in corso..."):
-                # Lista con routing automatico per garantire il funzionamento
+                # openrouter/free seleziona automaticamente il miglior modello vision gratuito disponibile
                 models_to_try = [
-                    "openrouter/auto",
-                    "qwen/qwen-2-vl-7b-instruct:free"
+                    "openrouter/free",
+                    "nvidia/nemotron-nano-12b-v2-vl:free"
                 ]
 
                 response = None
